@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="SetMessagePartPropertyServiceType" factoryClass="com.progress.codeshare.esbservice.setMessagePartProperty.SetMessagePartPropertyService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="constantVal"/>
+            <stringParam name="dateTimeVal"/>
+            <stringParam name="messagePart"/>
+            <stringParam name="mode"/>
+            <stringParam name="name"/>
+            <stringParam name="namespaces"/>
+            <stringParam name="xpathExpr"/>
+        </runtime>
+    </validParams>
+</serviceType>
